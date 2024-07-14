@@ -1,0 +1,118 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #352926;
+}
+
+* {
+  box-sizing: border-box;
+  /*border: solid 2px black;*/
+  color: white;
+  font-family: "Trebuchet MS";
+}
+
+[class*="col"] {
+  float: left;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: "Lucida Bright";
+}
+
+/* ROW 1 */
+h1{
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+#header h2 {
+  font-size: 30px;
+}
+
+hr {
+  border: 5px solid #47682C;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+/* ROW 2 */
+#links a {
+  background-color: #9EB599;
+  color: white;
+  text-align: center;
+  padding: 14px 24px;
+  cursor: pointer;
+  width: 180px;
+  display: block;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#links a:hover {
+  background-color: #47682C;
+}
+
+#photo {
+  text-align: center
+}
+
+#rate h3 {
+  font-size: 24px;
+}
+
+#rate fieldset, legend {
+  background-color: #9EB599;
+  border: solid 3px #47682C;
+  padding: 14px 24px;
+  font-size: 18px;
+  width: 300px;
+}
+
+#conversion {
+  background-color: #9EB599;
+  border: solid 3px #47682C;
+  margin-top: 20px;
+  padding: 0px 24px 14px;
+  font-size: 18px;
+  width: 400px;
+}
+
+#conversion input {
+  width: 160px;
+  height: 40px;
+  background-color: #424242;
+}
+
+/* ROW 3 */
+.vertical-hr {
+  width: 2px;
+  border-left: 6px solid #47682C;
+  height: 550px;
+}
+
+.subhead{
+  font-size: 18px;
+  color: #9EB599;
+}
+
+#ingredients ul, #equipment ul, #instructions ul {
+  line-height: 30px;
+}
+
+/* ROW 4 */
+#footer {
+  background-color: #9EB599;
+  border: solid 3px #47682C;
+  padding: 14px 24px;
+  font-size: 18px;
+  width: 100%;
+}
